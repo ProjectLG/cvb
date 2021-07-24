@@ -1,0 +1,310 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Fatesadmin = Instance.new("TextButton")
+local kibblesadmin = Instance.new("TextButton")
+local miztshub = Instance.new("TextButton")
+local Infiniteyield = Instance.new("TextButton")
+local COMINGSOON = Instance.new("TextButton")
+local FlyBad = Instance.new("TextButton")
+local Cmdx600CMDS = Instance.new("TextButton")
+local Soon = Instance.new("TextButton")
+local Soon_2 = Instance.new("TextButton")
+local Soon_3 = Instance.new("TextButton")
+local Soon_4 = Instance.new("TextButton")
+local Soon_5 = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(65, 65, 65)
+Frame.BorderColor3 = Color3.fromRGB(65, 65, 65)
+Frame.Position = UDim2.new(0.123145387, 0, 0.230638281, 0)
+Frame.Size = UDim2.new(0, 1213, 0, 593)
+Frame.Active = true
+Frame.Draggable = true
+
+Fatesadmin.Name = "Fatesadmin"
+Fatesadmin.Parent = Frame
+Fatesadmin.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Fatesadmin.BackgroundTransparency = 1.000
+Fatesadmin.Position = UDim2.new(0.0317606516, 0, 0.211461052, 0)
+Fatesadmin.Size = UDim2.new(0, 378, 0, 68)
+Fatesadmin.Font = Enum.Font.SourceSans
+Fatesadmin.Text = "Fates admin"
+Fatesadmin.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fatesadmin.TextScaled = true
+Fatesadmin.TextSize = 14.000
+Fatesadmin.TextWrapped = true
+Fatesadmin.MouseButton1Down:connect(function()
+	local ok, err = pcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua")));
+
+	if not ok then
+		print(err);
+	end;
+end)
+
+kibblesadmin.Name = "kibbles admin"
+kibblesadmin.Parent = Frame
+kibblesadmin.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+kibblesadmin.BackgroundTransparency = 1.000
+kibblesadmin.Position = UDim2.new(0.317003876, 0, 0.211461052, 0)
+kibblesadmin.Size = UDim2.new(0, 378, 0, 68)
+kibblesadmin.Font = Enum.Font.SourceSans
+kibblesadmin.Text = "Kibbles admin"
+kibblesadmin.TextColor3 = Color3.fromRGB(0, 0, 0)
+kibblesadmin.TextScaled = true
+kibblesadmin.TextSize = 14.000
+kibblesadmin.TextWrapped = true
+
+
+miztshub.Name = "mizts hub"
+miztshub.Parent = Frame
+miztshub.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+miztshub.BackgroundTransparency = 1.000
+miztshub.Position = UDim2.new(0.648413599, 0, 0.211461052, 0)
+miztshub.Size = UDim2.new(0, 378, 0, 68)
+miztshub.Font = Enum.Font.SourceSans
+miztshub.Text = "Mizts hub"
+miztshub.TextColor3 = Color3.fromRGB(0, 0, 0)
+miztshub.TextScaled = true
+miztshub.TextSize = 14.000
+miztshub.TextWrapped = true
+miztshub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Sylixe/MiztHub/master/MainFolder/uqXAxyVdQpWTcRCdFXU6Yt2meuDkYcLUDN4SJRekQWZ5wp368zKHreYT4w82AH4U.lua",true))()
+end)
+
+Infiniteyield.Name = "Infinite yield"
+Infiniteyield.Parent = Frame
+Infiniteyield.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Infiniteyield.BackgroundTransparency = 1.000
+Infiniteyield.Position = UDim2.new(0.0309362896, 0, 0.420567274, 0)
+Infiniteyield.Size = UDim2.new(0, 378, 0, 68)
+Infiniteyield.Font = Enum.Font.SourceSans
+Infiniteyield.Text = "infinite yield"
+Infiniteyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+Infiniteyield.TextScaled = true
+Infiniteyield.TextSize = 14.000
+Infiniteyield.TextWrapped = true
+Infiniteyield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+COMINGSOON.Name = "COMING SOON?"
+COMINGSOON.Parent = Frame
+COMINGSOON.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+COMINGSOON.BackgroundTransparency = 1.000
+COMINGSOON.Position = UDim2.new(0.316179514, 0, 0.420567274, 0)
+COMINGSOON.Size = UDim2.new(0, 378, 0, 68)
+COMINGSOON.Font = Enum.Font.SourceSans
+COMINGSOON.Text = ".Patched"
+COMINGSOON.TextColor3 = Color3.fromRGB(0, 0, 0)
+COMINGSOON.TextScaled = true
+COMINGSOON.TextSize = 14.000
+COMINGSOON.TextWrapped = true
+
+FlyBad.Name = "Fly [Bad]"
+FlyBad.Parent = Frame
+FlyBad.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+FlyBad.BackgroundTransparency = 1.170
+FlyBad.Position = UDim2.new(0.647589207, 0, 0.420567274, 0)
+FlyBad.Size = UDim2.new(0, 378, 0, 68)
+FlyBad.Font = Enum.Font.SourceSans
+FlyBad.Text = "Fly [bad]"
+FlyBad.TextColor3 = Color3.fromRGB(0, 0, 0)
+FlyBad.TextScaled = true
+FlyBad.TextSize = 14.000
+FlyBad.TextWrapped = true
+FlyBad.MouseButton1Down:connect(function()
+	-- Fly GUI
+
+
+	-- Instances:
+
+	local fly = Instance.new("ScreenGui")
+	local epic = Instance.new("Frame")
+	local backgroundtitle = Instance.new("TextLabel")
+	local creator = Instance.new("TextLabel")
+	local title = Instance.new("TextLabel")
+	local close = Instance.new("TextButton")
+	local flybutton = Instance.new("TextButton")
+
+	--Properties:
+
+	fly.Name = "fly"
+	fly.Parent = game.CoreGui
+	fly.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+	epic.Name = "epic"
+	epic.Parent = fly
+	epic.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	epic.Position = UDim2.new(0.0911376476, 0, 0.466830462, 0)
+	epic.Size = UDim2.new(0, 181, 0, 178)
+	epic.Active = true
+	epic.Draggable = true
+
+	backgroundtitle.Name = "backgroundtitle"
+	backgroundtitle.Parent = epic
+	backgroundtitle.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+	backgroundtitle.Size = UDim2.new(0, 182, 0, 43)
+	backgroundtitle.Font = Enum.Font.SciFi
+	backgroundtitle.Text = ""
+	backgroundtitle.TextColor3 = Color3.fromRGB(0, 0, 0)
+	backgroundtitle.TextScaled = true
+	backgroundtitle.TextSize = 14.000
+	backgroundtitle.TextWrapped = true
+
+	creator.Name = "creator"
+	creator.Parent = epic
+	creator.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+	creator.Position = UDim2.new(0.00442049652, 0, 0.762519121, 0)
+	creator.Size = UDim2.new(0, 181, 0, 42)
+	creator.Font = Enum.Font.SourceSans
+	creator.Text = "Made by Arowix"
+	creator.TextColor3 = Color3.fromRGB(0, 0, 0)
+	creator.TextScaled = true
+	creator.TextSize = 14.000
+	creator.TextWrapped = true
+
+	title.Name = "title"
+	title.Parent = epic
+	title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	title.BackgroundTransparency = 1.000
+	title.Position = UDim2.new(0.0497237556, 0, 0, 0)
+	title.Size = UDim2.new(0, 119, 0, 43)
+	title.Font = Enum.Font.SciFi
+	title.Text = "Fly"
+	title.TextColor3 = Color3.fromRGB(0, 0, 0)
+	title.TextScaled = true
+	title.TextSize = 14.000
+	title.TextWrapped = true
+
+	close.Name = "close"
+	close.Parent = epic
+	close.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+	close.Position = UDim2.new(0.76795578, 0, 0, 0)
+	close.Size = UDim2.new(0, 43, 0, 43)
+	close.Font = Enum.Font.GothamBlack
+	close.Text = "X"
+	close.TextColor3 = Color3.fromRGB(0, 0, 0)
+	close.TextScaled = true
+	close.TextSize = 14.000
+	close.TextWrapped = true
+	close.MouseButton1Down:connect(function()
+		epic.Visible = false
+	end)
+
+	flybutton.Name = "flybutton"
+	flybutton.Parent = epic
+	flybutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	flybutton.Position = UDim2.new(0.243093923, 0, 0.344781578, 0)
+	flybutton.Size = UDim2.new(0, 84, 0, 42)
+	flybutton.Font = Enum.Font.SourceSans
+	flybutton.Text = "Click me to Fly"
+	flybutton.TextColor3 = Color3.fromRGB(0, 0, 0)
+	flybutton.TextSize = 14.000
+	flybutton.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/7rXZ9VNc", true))()
+		flybutton.Text = "Press E to fly and unfly"
+		flybutton.TextSize = 10.000
+	end)
+end)
+
+Cmdx600CMDS.Name = "Cmdx [600+ CMDS]"
+Cmdx600CMDS.Parent = Frame
+Cmdx600CMDS.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Cmdx600CMDS.BackgroundTransparency = 1.170
+Cmdx600CMDS.Position = UDim2.new(0.0317606926, 0, 0.602692068, 0)
+Cmdx600CMDS.Size = UDim2.new(0, 378, 0, 68)
+Cmdx600CMDS.Font = Enum.Font.SourceSans
+Cmdx600CMDS.Text = "Cmdx [600+ CMDS]"
+Cmdx600CMDS.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cmdx600CMDS.TextScaled = true
+Cmdx600CMDS.TextSize = 14.000
+Cmdx600CMDS.TextWrapped = true
+Cmdx600CMDS.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+end)
+
+Soon.Name = "Soon.."
+Soon.Parent = Frame
+Soon.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Soon.BackgroundTransparency = 1.170
+Soon.Position = UDim2.new(0.343384773, 0, 0.602692068, 0)
+Soon.Size = UDim2.new(0, 378, 0, 68)
+Soon.Font = Enum.Font.SourceSans
+Soon.Text = "Fling all [May not work]"
+Soon.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon.TextScaled = true
+Soon.TextSize = 14.000
+Soon.TextWrapped = true
+
+Soon_2.Name = "Soon.."
+Soon_2.Parent = Frame
+Soon_2.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Soon_2.BackgroundTransparency = 1.170
+Soon_2.Position = UDim2.new(0.655008852, 0, 0.779757857, 0)
+Soon_2.Size = UDim2.new(0, 378, 0, 68)
+Soon_2.Font = Enum.Font.SourceSans
+Soon_2.Text = "Soon.."
+Soon_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon_2.TextScaled = true
+Soon_2.TextSize = 14.000
+Soon_2.TextWrapped = true
+
+Soon_3.Name = "Soon.."
+Soon_3.Parent = Frame
+Soon_3.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Soon_3.BackgroundTransparency = 1.170
+Soon_3.Position = UDim2.new(0.333491921, 0, 0.76963979, 0)
+Soon_3.Size = UDim2.new(0, 378, 0, 68)
+Soon_3.Font = Enum.Font.SourceSans
+Soon_3.Text = "Soon.."
+Soon_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon_3.TextScaled = true
+Soon_3.TextSize = 14.000
+Soon_3.TextWrapped = true
+
+Soon_4.Name = "Soon.."
+Soon_4.Parent = Frame
+Soon_4.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Soon_4.BackgroundTransparency = 1.170
+Soon_4.Position = UDim2.new(0.0218678862, 0, 0.76963979, 0)
+Soon_4.Size = UDim2.new(0, 378, 0, 68)
+Soon_4.Font = Enum.Font.SourceSans
+Soon_4.Text = "Soon.."
+Soon_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon_4.TextScaled = true
+Soon_4.TextSize = 14.000
+Soon_4.TextWrapped = true
+
+Soon_5.Name = "Soon.."
+Soon_5.Parent = Frame
+Soon_5.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+Soon_5.BackgroundTransparency = 1.170
+Soon_5.Position = UDim2.new(0.647589207, 0, 0.602692068, 0)
+Soon_5.Size = UDim2.new(0, 378, 0, 68)
+Soon_5.Font = Enum.Font.SourceSans
+Soon_5.Text = "Soon.."
+Soon_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Soon_5.TextScaled = true
+Soon_5.TextSize = 14.000
+Soon_5.TextWrapped = true
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 1213, 0, 73)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Kibbles Gui 1.0"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
